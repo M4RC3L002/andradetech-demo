@@ -319,7 +319,7 @@ function Topbar({
       <div className="flex min-w-0 items-center gap-2 sm:gap-3">
         <button
           type="button"
-          onClick={onOpenMobileMenu}
+          onClick={onOpenMobileMenu} aria-label="Abrir menu de módulos"
           className={`flex-shrink-0 rounded-lg p-1.5 md:hidden transition-colors ${
             isDark ? 'bg-neutral-900 text-neutral-400 hover:text-white' : 'bg-slate-100 text-slate-600 hover:text-slate-900'
           }`}
